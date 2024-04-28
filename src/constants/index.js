@@ -9,15 +9,14 @@ import {
   css,
   reactjs,
   tailwind,
-  nodejs,
-  mongodb,
   mysql,
   git,
-  tripguide,
+  angular,
   carrot,
   proj1,
   proj2,
   proj3,
+  proj4,
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +40,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -64,6 +63,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -72,27 +75,19 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "MySQL",
     icon: mysql,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
 ];
@@ -183,7 +178,7 @@ const projects = [
   {
     name: "Word Scramble",
     description:
-      "Web-based simple game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters with the help of the hints",
+      "Web-based simple game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters with the help of the hints.",
     tags: [
       {
         name: "Javascript",
@@ -225,7 +220,7 @@ const projects = [
   {
     name: "Simple Webpage",
     description:
-      "A simple responsive webpage using Css & NextJs with impressive animations. It also has well-known Baby-Yoda from Star-Wars Franchise and Yoda's Galaxy Animation",
+      "A simple responsive webpage using Css & NextJs with impressive animations. It also has well-known Baby-Yoda from Star-Wars Franchise and Yoda's Galaxy Animation.",
     tags: [
       {
         name: "Nextjs",
@@ -242,6 +237,27 @@ const projects = [
     ],
     image: proj3,
     source_code_link: "https://prachit.pages.dev",
+  },
+  {
+    name: "3D Portfolio",
+    description:
+      "The most impressive websites in the world use 3D graphics and animations to bring their content to life. This project is a 3D portfolio website designed using ThreeJS that showcases my work in a unique and engaging way.",
+    tags: [
+      {
+        name: "Threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: proj4,
+    source_code_link: "https://amprachit.vercel.app/",
   },
 ];
 
