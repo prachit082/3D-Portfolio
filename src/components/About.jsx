@@ -166,7 +166,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a skilled software developer with experience in TypeScript &
-        JavaScript, and expertise in frameworks like React, and Angular. I'm a
+        JavaScript, and expertise in frameworks like React, Angular and Laravel. I'm a
         quick learner and collaborate closely with clients to create efficient,
         scalable, and user-friendly solutions that solve real-world problems.
         I thrive on exploring innovative ideas, emerging technologies and gaining real-world experience. 
