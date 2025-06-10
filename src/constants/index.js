@@ -17,6 +17,8 @@ import {
   proj2,
   proj3,
   proj4,
+  notely,
+  sms
 } from "../assets";
 
 export const navLinks = [
@@ -147,54 +149,62 @@ const experiences = [
   // },
 ];
 
-const testimonials = [
+const socialmediaprofile = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    description:
+      "LinkedIn is a business & employment-focused social media platform that works on websites and mobile apps.",
+    name: "LinkedIn",
+    me: "Prachit Pandit",
+    image: "https://www.citypng.com/public/uploads/preview/hd-vector-flat-linkedin-in-round-icon-png-701751695046390m4phkuuiqm.png",
+    link: "https://linkedin.com/in/itsprachit/"
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    description:
+      "Instagram is an American photo and short-form video sharing social networking service.",
+    name: "Instagram",
+    me: "Prachit Pandit",
+    image: "https://i.pinimg.com/736x/ff/5a/e7/ff5ae72f423c7a1a2e6daf347ff1b5e2.jpg",
+    link: "https://www.instagram.com/prachit.xo/"
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    description:
+      "GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code.",
+    name: "GitHub",
+    me: "Prachit Pandit",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa8FV8SCzjlNqk2yzFPetRZbY7j258d8-MuA&s",
+    link: "https://github.com/prachit082"
   },
 ];
 
 const projects = [
   {
-    name: "Word Scramble",
+    name: "Notely",
     description:
-      "Web-based simple game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters with the help of the hints.",
+      "A beautiful, minimalistic, and responsive Notes Manager with features like — Light/Dark Mode, View Modes: List/Tile, Image Support, Sorting, Delete & Restore",
     tags: [
       {
-        name: "Javascript",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Css",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "Html",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Dexie",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Radix UI",
+        color: "green-text-gradient",
+      },
     ],
-    image: proj2,
-    source_code_link: "https://wordscramble.pages.dev",
+    image: notely,
+    source_code_link: "https://notelynotes.vercel.app",
   },
   {
     name: "Healthcare Management",
@@ -239,26 +249,34 @@ const projects = [
   //   source_code_link: "https://prachit.pages.dev",
   // },
   {
-    name: "3D Portfolio",
+    name: "Student Management System",
     description:
-      "The most impressive websites in the world use 3D graphics and animations to bring their content to life. This project is a 3D portfolio website designed using ThreeJS that showcases my work in a unique and engaging way.",
+      "A web-based Student Management System built with Laravel 12 that allows to efficiently manage students, teachers, courses, batches, enrollments and payments.",
     tags: [
       {
-        name: "Threejs",
+        name: "MySQL",
         color: "blue-text-gradient",
       },
       {
-        name: "Html",
+        name: "Laravel12",
         color: "green-text-gradient",
       },
       {
-        name: "Css",
+        name: "Php-8.2",
         color: "pink-text-gradient",
       },
+      {
+        name: "Bootstrap4",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Laravel-DomPDF",
+        color: "green-text-gradient",
+      },
     ],
-    image: proj4,
-    source_code_link: "https://amprachit.vercel.app/",
+    image: sms,
+    source_code_link: "hhttps://student02.up.railway.app",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, socialmediaprofile, projects };
