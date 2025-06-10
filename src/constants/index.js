@@ -12,7 +12,7 @@ import {
   mysql,
   git,
   angular,
-  carrot,
+  seagull,
   proj1,
   proj2,
   proj3,
@@ -95,8 +95,8 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
-    company_name: "Carrot Consultancy Services",
-    icon: carrot,
+    company_name: "Seagull Victsoft Pvt Ltd",
+    icon: seagull,
     iconBg: "#383E56",
     date: "May 2023 - Current",
     points: [
@@ -217,27 +217,27 @@ const projects = [
     image: proj1,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Simple Webpage",
-    description:
-      "A simple responsive webpage using Css & NextJs with impressive animations. It also has well-known Baby-Yoda from Star-Wars Franchise and Yoda's Galaxy Animation.",
-    tags: [
-      {
-        name: "Nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: proj3,
-    source_code_link: "https://prachit.pages.dev",
-  },
+  // {
+  //   name: "Simple Webpage",
+  //   description:
+  //     "A simple responsive webpage using Css & NextJs with impressive animations. It also has well-known Baby-Yoda from Star-Wars Franchise and Yoda's Galaxy Animation.",
+  //   tags: [
+  //     {
+  //       name: "Nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Html",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: proj3,
+  //   source_code_link: "https://prachit.pages.dev",
+  // },
   {
     name: "3D Portfolio",
     description:

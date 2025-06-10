@@ -19,7 +19,7 @@ import angular from "./tech/angular.png";
 import typescript from "./tech/typescript.png";
 import mysql from "./tech/mysql.png";
 
-import carrot from "./company/carrot.png";
+import seagull from "./company/seagull.jpg";
 
 import proj1 from "./proj1.jpg";
 import proj2 from "./proj2.png";
@@ -46,7 +46,7 @@ export {
   angular,
   typescript,
   mysql,
-  carrot,
+  seagull,
   proj1,
   proj2,
   proj3,

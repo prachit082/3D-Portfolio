@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import ResumeButton from "./ResumeButton";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close, icon } from "../assets";
@@ -62,6 +62,9 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="mt-2 lg:block hidden">
+					<ResumeButton />
+				</div>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -91,6 +94,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li>
+								<div className="mt-2">
+									<ResumeButton />
+								</div>
+							</li>
             </ul>
           </div>
         </div>
