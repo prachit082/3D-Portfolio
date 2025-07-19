@@ -1,4 +1,4 @@
-# Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
+# Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React
 
 <p align="center">
 <img src="thumbnail.png"/></p>
